@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Downloads/Playfair_Display"
+		},
+		{
+			"path": "../../Downloads/Roboto_Condensed"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PortfolioWebsite"
+	}
+}

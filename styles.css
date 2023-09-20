@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Space Mono';
+    color: white;
+}
+
+.col, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11{
+    background-color: pin;
+    padding: 1em
+}
+
+
+.row{
+    background-color: lightblu;
+    padding: 1em;
+}
+
+#home {
+    background-color: #94c48e;
+}
+
+.img-max{
+    max-width: 250px;
+    width: 100%;
+}
+
+.full-page {
+    width: 100vw;
+    height: 100vh;
+}
+
+#homescreentext {
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+h1 {
+    letter-spacing: 18px;
+    font-size: 95px;
+}
+
+.active {
+    text-decoration: underline;
+    text-decoration-color: #94c48e;
+    text-decoration-thickness: 2px;
+}
+
+#homescreentext::after {
+    content: "|";
+font-size: 150%;
+line-height: 30px;
+animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+  
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  
+.fa-brands:hover {
+    color: black;
+}
+  .fa-brands {
+    font-size: 50px;
+    color: white;
+  }
+
+ 
